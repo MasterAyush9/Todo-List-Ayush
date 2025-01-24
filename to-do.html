@@ -1,0 +1,51 @@
+<!AyushSinghRepository>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .todo-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: skyblue;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .todo-container h1 {
+            text-align: center;
+        }
+        .todo-list {
+            list-style: none;
+            padding: 0;
+        }
+        .todo-list li {
+            background-color: yellow;
+            margin: 10px 0;
+            padding: 10px;
+            border: 10px solid #ddd;
+            border-radius: 3px;
+        }
+        .todo-list input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <ul class="todo-list">
+            <li><input type="checkbox" id="task1"><label for="task1">Reading English</label></li>
+            <li><input type="checkbox" id="task2"><label for="task2">Complete Maths</label></li>
+            <li><input type="checkbox" id="task3"><label for="task3">Do the RC</label></li>
+            <li><input type="checkbox" id="task4"><label for="task4">Read Novel/Comic</label></li>
+        </ul>
+    </div>
+</body>
+</html>
